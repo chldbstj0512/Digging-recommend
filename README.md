@@ -1,6 +1,4 @@
-# Digging_recommend
-
-## AI 추천시스템 기반의 음악 디깅 SNS 플랫폼, Diggle!
+# AI 추천시스템 기반 음악 디깅 SNS 플랫폼, Diggle!
 [Diggle_final_product_PR.pdf](https://github.com/user-attachments/files/23700483/Diggle_final_product_PR.pdf)
 (2023년 12월 aOS, iOS 배포되었습니다.)
 
