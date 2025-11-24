@@ -1,15 +1,20 @@
 # Digging_recommend
+
+## AI 추천시스템 기반의 음악 디깅 SNS 플랫폼, Diggle!
+[Diggle_final_product_PR.pdf](https://github.com/user-attachments/files/23700483/Diggle_final_product_PR.pdf)
+(2023년 12월 aOS, iOS 배포되었습니다.)
+
+## ML source
 디킹클럽 추천시스템 개발을 위한 소스코드 관리용입니다.
 본 서비스의 ML process는 다음과 같습니다.
 
 ## 개발 프로세스
 ### 1. 데이터 수집
-1만 곡에 가까운 데이터셋을 구축하였으며, 국내곡부터 해외가수까지 데이터셋을 구축하였음.
+1만 곡에 가까운 데이터셋을 국내 스트리밍 사이트 crawling으로 직접 구축하였으며, 국내곡부터 해외가수까지 차트 기반 스크랩.
 데이터셋의 정보로는 아티스트에 관한 데이터셋과 곡에 관한 데이터셋이 존재하며, 아티스트는 장르, 활동년대, 성별, 그룹, 국가 등의 정보가 저장되어 있으며, 곡 정보 데이터셋은 아티스트 데이터셋 기반 아티스트명, 앨범명, 곡명, 좋아요 수가 존재한다. 
 
-#### 1-1. 데이터셋 구성도
-* 1104artist.csv - 아티스트에 관한 데이터셋
-* 1105_song.csv - 곡 정보에 관한 데이터셋
+#### 1-1. 클러스터 결과
+<img width="811" height="390" alt="image" src="https://github.com/user-attachments/assets/ea301ef9-8436-49ae-af50-9eaec52869f6" />
 
 ### 2. 데이터 전처리
 데이터의 결측치나 정규화 작업, 데이터의 패턴 파악을 위해 세그먼트화나 클러스터링이 가능함
